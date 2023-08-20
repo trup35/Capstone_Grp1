@@ -50,6 +50,6 @@ Inference Prompt: '\<question>' Question '\<answer>'.
 
 **Email_Subject_Line_Generation.ipynb** - Python code for task 1.
 
-**Question Answering on AIML Queries.ipynb** - Python code for task 2.
+**Question_Answering_on_AIML_Queries.ipynb** - Python code for task 2.
 
 **requirements.txt** - Software/Tool requirement details.
