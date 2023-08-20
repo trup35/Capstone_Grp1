@@ -44,3 +44,12 @@ Training Prompt: '\<question>' Question '\<answer>' Answer.
 Inference Prompt: '\<question>' Question '\<answer>'.
 
 
+### File details
+
+**app.py** - File used for application deployment in Cloud.
+
+**Email_Subject_Line_Generation.ipynb** - Python code for task 1.
+
+**Question Answering on AIML Queries.ipynb** - Python code for task 2.
+
+**requirements.txt** - Software/Tool requirement details.
