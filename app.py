@@ -10,6 +10,8 @@ import os
 import gradio as gr
 
 
+############################################  Code for Email Subject Generation ############################################ 
+
 model_s = GPT2LMHeadModel.from_pretrained(
     "SilentLearner/model_save_subgen"
 )
@@ -50,6 +52,10 @@ def subgen(body):
     # decoded_preds = ''.join(letter for letter in decoded_preds if letter.isalnum() or letter.isspace()).strip()
     return decoded_preds
 
+
+############################################ Code for AIML QA ############################################ 
+
+
 model = GPT2LMHeadModel.from_pretrained(
     "SilentLearner/model_save_qa"
 )
@@ -86,6 +92,8 @@ def qaaiml(question):
     decoded_preds = tokenizer.decode(prediction[0], skip_special_tokens=True)
     decoded_preds = return_first_match(decoded_preds).strip().split(".")[0]
     return decoded_preds
+
+############################################ Gradio frontend part ############################################ 
 
 theme = gr.themes.Soft()
 
