@@ -1,5 +1,7 @@
 # AI Based Generative QA System - GPT2 variant
 
+Deplyoded application : https://huggingface.co/spaces/SilentLearner/AIML_Gradio
+
 ## Problem Statement
 This work centers around generative AI systems and encompasses two distinct objectives within this domain. The initial objective involves generating email subjects using a well-prepared dataset, and subsequently engaging in hands-on fine-tuning utilizing a GPT model. Through this process of mastering the implementation of GPT model fine-tuning for subject line generation, a novel dataset will be curated for the subsequent task. The second task involves training a Question-Answering (QA) model, which can then be deployed for testing its proficiency in responding to novel AIML queries.
 
